@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [{
+    "type": "pwa-node",
+    "request": "launch",
+    "name": "greet",
+    "skipFiles": ["<node_internals>/**"],
+    "program": "${workspaceFolder}/node_modules/.bin/ts-node",
+    "args": ["src/cli.ts"],
+    "outputCapture": "std",
+    "env": {
+      "TS_NODE": "true",
+      "TS_NODE_TRANSPILE_ONLY": "true",
+      "TS_NODE_COMPILER": "typescript-cached-transpile"
+    }
+  }]
+}

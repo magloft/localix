@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "lib": ["ES6"],
+    "rootDir": "src",
+    "outDir": "dist",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strict": true,
+    "declaration": true,
+    "incremental": true
+  },
+  "files": ["src/cli.ts"],
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,8 @@
+.vscode/
+src/
+output/
+.eslintrc
+localix.dist.json
+localix.json
+tsconfig.json
+tsconfig.tsbuildinfo
